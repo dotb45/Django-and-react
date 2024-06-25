@@ -1,0 +1,70 @@
+/* NominaForm.css */
+
+/* Estilos generales */
+body {
+    background-color: #f8f9fa; /* Fondo claro */
+    color: #343a40; /* Texto oscuro para buen contraste */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff; /* Azul claro para los encabezados */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Estilos para el formulario */
+form {
+    margin-top: 20px;
+}
+
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para mensajes de error */
+.error-message {
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: 5px;
+}
+
+/* Estilos para mensajes de éxito */
+.success-message {
+    color: #28a745;
+    font-size: 0.875rem;
+    margin-top: 5px;
+}

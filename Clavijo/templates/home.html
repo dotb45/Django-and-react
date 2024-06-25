@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
+    <title>F4st Nomina</title>
+</head>
+<body>
+    <header>
+        <h1>F4st Nomina</h1>
+    </header>
+
+    <div class="container">
+        <p>TRABAJOS</p>
+        <ul>
+            <li><a href="{% url 'nomina' %}">Crud nómina</a></li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{%static "css/style1.css"%}">
+    <title>React en el Ámbito Laboral</title>
+
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <img src="{% static 'images/react.png' %}" alt="React Logo">
+            <h1>React en el Ámbito Laboral</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="{% url 'home' %}">Inicio</a></li> 
+                <li><a href="#react-ambito-laboral">React en el Ámbito Laboral</a></li>
+                <li><a href="#salarios-desarrolladores">Salarios de Desarrolladores React</a></li>            
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <section id="que-es-react">
+            <h2>¿Qué es React?</h2>
+            <p>React es una biblioteca de JavaScript para construir interfaces de usuario. Es mantenida por Facebook y una comunidad de desarrolladores individuales y empresas. React facilita la creación de aplicaciones web interactivas y dinámicas de manera eficiente y escalable.</p>
+        </section>
+        <section id="react-ambito-laboral">
+            <h2>React en el Ámbito Laboral</h2>
+            <p>En el ámbito laboral, React se ha convertido en una de las bibliotecas más populares para el desarrollo de aplicaciones web. Muchas empresas buscan desarrolladores con experiencia en React debido a sus beneficios en términos de rendimiento y facilidad de mantenimiento de código.</p>
+        </section>
+        <section>
+            <h2>Perfil del Programador en React</h2>
+            <p>El perfil ideal de un programador en React incluye:</p>
+            <ul>
+                <li><strong>Educación:</strong> Título en informática, ingeniería de software o un campo relacionado.</li>
+                <li><strong>Experiencia:</strong> 2-5 años de experiencia en desarrollo front-end con una sólida comprensión de React y su ecosistema.</li>
+                <li><strong>Habilidades Técnicas:</strong> Dominio de JavaScript, HTML, CSS, manejo de estado con Redux, y familiaridad con TypeScript es un plus.</li>
+                <li><strong>Habilidades Blandas:</strong> Buena comunicación, capacidad para trabajar en equipo, y habilidades de resolución de problemas.</li>
+                <li><strong>Certificaciones:</strong> Certificaciones en desarrollo web o tecnologías específicas de React pueden ser valoradas.</li>
+            </ul>
+        </section>
+        <section id="salarios-desarrolladores">
+            <h2>Salarios de Desarrolladores React</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>País</th>
+                        <th>Junior</th>
+                        <th>Semi-Senior</th>
+                        <th>Senior</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Colombia</td>
+                        <td>2,000,000 - 4,000,000 COP</td>
+                        <td>4,500,000 - 8,000,000 COP</td>
+                        <td>8,500,000 - 12,000,000 COP</td>
+                    </tr>
+                    <tr>
+                        <td>Estados Unidos</td>
+                        <td>$60,000 - $80,000 USD</td>
+                        <td>$80,000 - $110,000 USD</td>
+                        <td>$110,000 - $150,000 USD</td>
+                    </tr>
+                    <tr>
+                        <td>Reino Unido</td>
+                        <td>£30,000 - £45,000</td>
+                        <td>£45,000 - £65,000</td>
+                        <td>£65,000 - £85,000</td>
+                    </tr>
+                    <tr>
+                        <td>India</td>
+                        <td>₹400,000 - ₹800,000</td>
+                        <td>₹800,000 - ₹1,500,000</td>
+                        <td>₹1,500,000 - ₹2,500,000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+</body>
+</html>

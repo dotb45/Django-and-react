@@ -1,0 +1,77 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    background-color: #f8f9fa; /* Fondo claro */
+    color: #343a40; /* Texto oscuro para buen contraste */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff; /* Azul claro para el encabezado */
+}
+
+/* Estilos para la tabla */
+.table {
+    margin-top: 20px;
+    background-color: #ffffff; /* Fondo blanco para la tabla */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera para la tabla */
+}
+
+.table th, .table td {
+    text-align: center; /* Centrar el texto en las celdas */
+    vertical-align: middle;
+}
+
+.table th {
+    background-color: #007bff; /* Fondo azul claro para el encabezado de la tabla */
+    color: white; /* Texto blanco para contraste */
+}
+
+.table td {
+    border: 1px solid #dee2e6; /* Bordes claros */
+}
+
+.table img {
+    border-radius: 50%; /* Bordes redondeados para las imágenes */
+}
+
+/* Estilos para los botones */
+.btn {
+    margin: 5px;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #212529;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+}
+
+/* Estilos específicos */
+.container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}

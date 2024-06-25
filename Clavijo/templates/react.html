@@ -1,0 +1,95 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{%static "css/style.css"%}">
+    <title> React</title>
+    <style>
+     
+    </style>
+</head>
+<body>
+    <header>
+        <img class="titulo" src="{% static 'images/react.png' %}" alt="React Logo">
+        <h1>Guia de  React</h1>
+    </header>
+    <div class="container">
+        <h2>Introducción</h2>
+        <p>React es una biblioteca de JavaScript para construir interfaces de usuario. Fue desarrollada por Facebook y es ampliamente utilizada en el desarrollo web moderno. A continuación, te mostramos una guía para aprender React y las cosas más importantes que debes conocer.</p>
+        
+        <h2>Pasos para Aprender React</h2>
+        <h3>1. Conocer los Fundamentos de JavaScript</h3>
+        <p>Antes de aprender React, es crucial tener un buen conocimiento de JavaScript, incluyendo:</p>
+        <ul>
+           <strong> <li>Variables y Tipos de Datos</li>
+            <li>Funciones y Scope</li>
+            <li>Manipulación del DOM</li>
+            <li>ES6+ (Arrow Functions, Promises, Async/Await, etc.)</li></strong>
+        </ul>
+
+        <h3>2. Entender JSX</h3>
+        <p>JSX es una extensión de la sintaxis de JavaScript que se utiliza en React para describir la UI. Es similar a HTML, pero con el poder de JavaScript. Aprende cómo usar JSX:</p>
+        <ul>
+           <strong> <li>Incluir expresiones de JavaScript en JSX</li>
+            <li>Condicionales y bucles en JSX</li>
+            <li>Styling en JSX</li></strong>
+            <img class="jsx" src="{% static 'images/jsx.png' %}" alt="My image">
+        </ul>
+
+        <h3>3. Componentes y Props</h3>
+        <p>Los componentes son la base de React. Un componente puede ser una función o una clase. Aprende cómo:</p>
+        <ul>
+          <strong>  <li>Crear componentes funcionales y de clase</li>
+            <li>Pasar datos entre componentes usando props</li>
+            <li>Componer componentes</li></strong>
+            <img src="{% static 'images/props.png' %}" alt="My image">
+        </ul>
+
+        <h3>4. Estado y Ciclo de Vida</h3>
+        <p>El estado es una característica clave en React que te permite crear aplicaciones interactivas. Aprende cómo manejar el estado:</p>
+        <ul>
+        <strong> <li>Uso del Hook useState</li>
+            <li>Ciclo de vida de los componentes de clase (componentDidMount, componentDidUpdate, componentWillUnmount)</li>
+            <li>Uso del Hook useEffect</li></strong>
+            <img src="{% static 'images/ciclo.webp' %}" alt="My image">
+        </ul>
+
+        <h3>5. Manejo de Eventos</h3>
+        <p>Aprender a manejar eventos en React es esencial para la interactividad. Incluye:</p>
+        <ul>
+          <strong>  <li>Agregar eventos a los elementos</li>
+            <li>Manejar eventos sintéticos de React</li>
+            <li>Pasar argumentos a los manejadores de eventos</li></strong>
+        </ul>
+
+        <h3>6. Enrutamiento</h3>
+        <p>El enrutamiento permite a las aplicaciones React tener múltiples páginas. React Router es la biblioteca más popular para esto. Aprende a:</p>
+        <ul>
+          <strong>  <li>Configurar React Router</li>
+            <li>Crear rutas y enlaces</li>
+            <li>Usar parámetros de ruta</li></strong>
+        </ul>
+
+        <h3>7. Gestionar el Estado Global</h3>
+        <p>En aplicaciones más grandes, es común necesitar gestionar el estado globalmente. Redux y Context API son soluciones populares. Aprende cómo:</p>
+        <ul>
+            <strong><li>Configurar y usar Redux</li>
+            <li>Usar Context API para evitar el prop drilling</li></strong>
+        </ul>
+
+        <h2>Recursos Adicionales</h2>
+        <p>Para profundizar más en React, considera los siguientes recursos:</p>
+        <ul>
+            <li><a href="https://reactjs.org/docs/getting-started.html" target="_blank">Documentación Oficial de React</a></li>
+            <li><a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a></li>
+            <li><a href="https://egghead.io/q/react" target="_blank">Egghead.io</a></li>
+            <li><a href="https://frontendmasters.com/" target="_blank">Frontend Masters</a></li>
+        </ul>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,24 @@
+{% load static %}
+{% load crispy_forms_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Nómina</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/form.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario Nómina</h1>
+        <h2>Ingresa los siguientes datos</h2>
+        <form action="{% url 'nuevo_nom' %}" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form|crispy }}
+            <button type="submit" class="btn btn-success" id="btnEnviar">Enviar</button>
+            <a class="btn btn-success" href="{% url 'nomina' %}">Regresar a la Lista</a>
+        </form>
+    </div>
+</body>
+</html>

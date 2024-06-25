@@ -1,0 +1,63 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/calculos.css' %}">
+    <title>Cálculos de Seguridad Social</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Cálculos del empleado</h1>
+        <table class="table table-dark table-striped mt-4">
+            <tr>
+                <th>Nombre</th>
+                <td>{{ nombre }}</td>
+            </tr>
+            <tr>
+                <th>Apellido</th>
+                <td>{{ apellido }}</td>
+            </tr>
+            <tr>
+                <th>Documento</th>
+                <td>{{ documento }}</td>
+            </tr>
+            <tr>
+                <th>Estado</th>
+                <td>{{ estado }}</td>
+            </tr>
+            <tr>
+                <th>Pensiones</th>
+                <td>{{ pensiones }}</td>
+            </tr>
+            <tr>
+                <th>Salud</th>
+                <td>{{ salud }}</td>
+            </tr>
+            <tr>
+                <th>Base</th>
+                <td>{{ base }}</td>
+            </tr>
+            <tr>
+                <th>ARL</th>
+                <td>{{ arl }}</td>
+            </tr>
+            <tr>
+                <th>Caja de Compensación</th>
+                <td>{{ caja_compensacion }}</td>
+            </tr>
+            <tr>
+                <th>Prima</th>
+                <td>{{ prima }}</td>
+            </tr>
+            <tr>
+                <th>Auxilio de Transporte</th>
+                <td>{{ auxilio_transporte }}</td>
+            </tr>
+        </table>
+        <a type="submit" class="btn btn-success" href="{% url 'nomina' %}">Regresar a la nómina</a>
+    </div>
+</body>
+</html>

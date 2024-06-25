@@ -1,0 +1,16 @@
+1)pip list
+2)python -m venv trabajo
+3) source trabajo/scripts/activate
+3.1)trabajo/scripts/activate.ps1
+4) deactivate 
+5)pip install django
+6)django-admin startproject testadso .
+7) python manage.py help 
+?)history (para ver el historial de comandos utilizados) 
+8)python -m django --version
+9)python  manage.py runserver
+10) python manage.py makemigrations
+
+ pip install djangorestframework
+ pip install setuptools
+  pip install coreapi   

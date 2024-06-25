@@ -1,0 +1,62 @@
+/* home.css */
+
+/* Estilos generales */
+body {
+    background-color: #f8f9fa; /* Fondo claro */
+    color: #343a40; /* Texto oscuro para buen contraste */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff; /* Azul claro para el encabezado */
+}
+
+/* Estilos para el contenedor */
+.container {
+    padding: 30px;
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    margin-top: 50px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilos para la tabla */
+.table {
+    margin-top: 20px;
+    background-color: #ffffff; /* Fondo blanco para la tabla */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera para la tabla */
+}
+
+.table th, .table td {
+    text-align: left; /* Alinear texto a la izquierda */
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.table th {
+    background-color: #007bff; /* Fondo azul claro para el encabezado de la tabla */
+    color: white; /* Texto blanco para contraste */
+}
+
+.table td {
+    border: 1px solid #dee2e6; /* Bordes claros */
+    background-color: #047df5; /* Fondo claro para las celdas */
+}
+
+/* Estilos para los botones */
+.btn {
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+}

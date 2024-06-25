@@ -1,0 +1,55 @@
+/* home.css */
+
+/* Estilos generales */
+body {
+    background-color: #f8f9fa; /* Fondo claro */
+    color: #343a40; /* Texto oscuro para buen contraste */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff; /* Azul claro para el encabezado */
+}
+
+/* Estilos para el contenedor */
+.container {
+    padding: 30px;
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    margin-top: 50px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilos para el formulario */
+form {
+    margin-top: 20px;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #343a40; /* Color del texto del label */
+}
+
+button {
+    margin-top: 20px;
+}
+
+/* Estilos para el botón */
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+}

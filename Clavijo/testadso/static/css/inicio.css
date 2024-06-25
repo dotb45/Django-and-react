@@ -1,0 +1,53 @@
+/* inicio.css */
+
+/* General styles */
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #1E1E1E;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #ffffff; /* Dorado oscuro para el título */
+}
+
+/* Container styles */
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.container p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #FFD700; /* Dorado oscuro para los enlaces */
+    font-size: 18px;
+}
+
+ul li a:hover {
+    color: #FFA500; /* Naranja para el efecto hover */
+}
